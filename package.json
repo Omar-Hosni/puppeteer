@@ -1,0 +1,19 @@
+{
+    "name": "spline-screenshot-server",
+    "version": "1.0.0",
+    "type": "module",
+    "description": "Backend service for capturing Spline scene screenshots",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "dev": "nodemon index.js"
+    },
+    "dependencies": {
+        "express": "^4.18.2",
+        "cors": "^2.8.5",
+        "puppeteer": "^21.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
+    }
+}
